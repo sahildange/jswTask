@@ -8,10 +8,18 @@
 
 <div class="nav">
 
-  <button type="button" class="btn" routerLink="/DispatcherPlanning">Dispatcher Planning</button>
-  <button type="button" class="btn" routerLink="/Converter">Converter</button>
-  <button type="button" class="btn" routerLink="/CasterEntry">CasterEntry</button>
+  <mat-tab-group>
+  <mat-tab label="Disptacher Planning" class="btn">
+    <app-dispatcherplanning></app-dispatcherplanning>
+  </mat-tab>
+  <mat-tab label="Converter" class="btn">
+    <app-converter></app-converter>
+  </mat-tab>
+  <mat-tab label="Caster Entry" class="btn" >
+    <app-casterentry></app-casterentry>
+  </mat-tab>
   <a href="#" class="float-right">SMS1</a>
+</mat-tab-group>
 </div>
 
 <div class="header-tab2">

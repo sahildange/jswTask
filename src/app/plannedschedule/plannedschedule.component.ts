@@ -38,29 +38,29 @@ export interface PeriodicElement {
 
 const ELEMENT_DATA: PeriodicElement[] = [
 
-  {id:1, scheduleId: 12 ,planGrade: 'JSW1361',route:'',planWidth:1234,planThick:1234,plannedStartDate:'24/12/2022',
+  {id:1, scheduleId: 1 ,planGrade: 'SAH123',route:'',planWidth:1234,planThick:1234,plannedStartDate:'06/01/2023',
  
   heatNumber:1234,heatStatus:"Download by Dispatcher"},
  
-  {id:1, scheduleId: 12 ,planGrade: 'JSW1361',route:'',planWidth:1234,planThick:1234,plannedStartDate:'24/12/2022',
+  {id:1, scheduleId: 1 ,planGrade: 'SAH123',route:'',planWidth:1234,planThick:1234,plannedStartDate:'06/01/2023',
  
   heatNumber:1234,heatStatus:"Download by Dispatcher"},
  
-  {id:1, scheduleId: 12 ,planGrade: 'JSW1361',route:'',planWidth:1234,planThick:1234,plannedStartDate:'24/12/2022',
+  {id:1, scheduleId: 1 ,planGrade: 'SAH123',route:'',planWidth:1234,planThick:1234,plannedStartDate:'06/01/2023',
  
   heatNumber:1234,heatStatus:"Download by Dispatcher"},
  
-  {id:1, scheduleId: 12 ,planGrade: 'JSW1361',route:'',planWidth:1234,planThick:1234,plannedStartDate:'24/12/2022',
+  {id:1, scheduleId: 1 ,planGrade: 'SAH123',route:'',planWidth:1234,planThick:1234,plannedStartDate:'06/01/2023',
  
   heatNumber:1234,heatStatus:"Download by Dispatcher"},
  
-  {id:1, scheduleId: 12 ,planGrade: 'JSW1361',route:'',planWidth:1234,planThick:1234,plannedStartDate:'24/12/2022',
+  {id:1, scheduleId: 1 ,planGrade: 'SAH123',route:'',planWidth:1234,planThick:1234,plannedStartDate:'06/01/2023',
  
   heatNumber:1234,heatStatus:"Download by Dispatcher"},
  
-  {id:1, scheduleId: 12 ,planGrade: 'JSW1361',route:'',planWidth:1234,planThick:1234,plannedStartDate:'24/12/2022',
+  {id:1, scheduleId: 1 ,planGrade: 'SAH123',route:'',planWidth:1234,planThick:1234,plannedStartDate:'06/01/2023',
  
-  heatNumber:1234,heatStatus:"Download by Dispatcher"}
+  heatNumber:1234,heatStatus:"Download by Dispatcher"},
  
   
  
