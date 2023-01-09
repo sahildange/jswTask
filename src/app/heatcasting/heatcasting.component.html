@@ -1,0 +1,110 @@
+<div class="mat-elevation-z8">
+
+    <table mat-table [dataSource]="dataSource">
+
+
+
+      <!-- Position Column -->
+
+      <ng-container matColumnDef="id">
+
+        <th style="text-align:center; background-color: cornflowerblue;" mat-header-cell *matHeaderCellDef> No. </th>
+
+        <td style="text-align: center;" mat-cell *matCellDef="let element"> <input type="radio"> </td>
+
+      </ng-container>
+
+
+
+      <!-- Name Column -->
+
+      <ng-container matColumnDef="scheduleId">
+
+        <th style="text-align:center; background-color: cornflowerblue;" mat-header-cell *matHeaderCellDef> ScheduleId </th>
+
+        <td style="text-align: center;" mat-cell *matCellDef="let element"> {{element.scheduleId}} </td>
+
+      </ng-container>
+
+
+
+      <!-- Weight Column -->
+
+      <ng-container matColumnDef="planGrade">
+
+        <th style="text-align:center; background-color: cornflowerblue;" mat-header-cell *matHeaderCellDef> Plan Grade </th>
+
+        <td style="text-align: center;" mat-cell *matCellDef="let element"> {{element.planGrade}} </td>
+
+      </ng-container>
+
+
+
+      <!-- Symbol Column -->
+
+      <ng-container matColumnDef="route">
+
+        <th style="text-align:center; background-color: cornflowerblue;" mat-header-cell *matHeaderCellDef> Route </th>
+
+        <td style="text-align: center;" mat-cell *matCellDef="let element"> {{element.route}} </td>
+
+      </ng-container>
+
+      <ng-container matColumnDef="planWidth">
+
+        <th style="text-align:center; background-color: cornflowerblue;" mat-header-cell *matHeaderCellDef> Plain Width </th>
+
+        <td style="text-align: center;" mat-cell *matCellDef="let element"> {{element.planWidth}} </td>
+
+      </ng-container>
+
+      <ng-container matColumnDef="planThick">
+
+        <th style="text-align:center; background-color: cornflowerblue;" mat-header-cell *matHeaderCellDef> Plain Thick </th>
+
+        <td style="text-align: center;" mat-cell *matCellDef="let element"> {{element.planThick}} </td>
+
+      </ng-container>
+
+      <ng-container matColumnDef="plannedStartDate">
+
+        <th style="text-align:center; background-color: cornflowerblue;" mat-header-cell *matHeaderCellDef> Planned Start Date </th>
+
+        <td style="text-align: center;" mat-cell *matCellDef="let element"> {{element.plannedStartDate}} </td>
+
+      </ng-container>
+
+      <ng-container matColumnDef="heatNumber">
+
+        <th style="text-align:center; background-color: cornflowerblue;" mat-header-cell *matHeaderCellDef> Heat Number </th>
+
+        <td style="text-align: center;" mat-cell *matCellDef="let element"> {{element.heatNumber}} </td>
+
+      </ng-container>
+
+      <ng-container matColumnDef="heatStatus">
+
+        <th style="text-align:center; background-color: cornflowerblue;" mat-header-cell *matHeaderCellDef> Heat Status </th>
+
+        <td style="text-align: center;" mat-cell *matCellDef="let element"> {{element.heatStatus}} </td>
+
+      </ng-container>
+
+
+
+
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+
+      <tr style="height: 14px;" mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    </table>
+
+
+
+    <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons aria-label="Select page of periodic elements">
+
+    </mat-paginator>
+
+  </div>
+

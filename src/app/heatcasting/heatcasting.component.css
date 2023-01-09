@@ -1,0 +1,66 @@
+table {
+
+    width: 98%;
+
+    /* margin-left: 5px; */
+
+    margin-top: 6px;
+
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+ 
+
+}
+
+
+
+
+table tr.mat-row {
+
+    height: 12px;
+
+}
+
+ 
+
+.mat-table,
+
+td,
+
+tr,
+
+th {
+
+   
+
+    border: 0.5px solid rgb(195, 190, 190);
+
+ 
+
+}
+
+ 
+
+td.mat-cell {
+
+    text-align: center;
+
+    justify-content: center;
+
+}
+
+ 
+
+th.mat-header-cell {
+
+    text-align: center;
+
+    justify-content: center;
+
+    background-color: cornflowerblue;
+
+ 
+
+    color: white;
+
+}

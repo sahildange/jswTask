@@ -1,0 +1,73 @@
+<!-- <div class="logo">
+  <img src="https://www.jsw.in/sites/all/themes/jsw_theme/images/logos/jsw.png">
+</div>  -->
+<div class="header">
+  
+  <strong>Manufacturing Execution System (MES)</strong>
+</div>
+
+<div class="nav">
+
+  <button type="button" class="btn" routerLink="/DispatcherPlanning">Dispatcher Planning</button>
+  <button type="button" class="btn" routerLink="/Converter">Converter</button>
+  <button type="button" class="btn" routerLink="/CasterEntry">CasterEntry</button>
+  <a href="#" class="float-right">SMS1</a>
+</div>
+
+<div class="header-tab2">
+  <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start">
+    <mat-tab label="Caster Details">
+    </mat-tab>
+    <mat-tab label="Heat Production">
+    </mat-tab>
+    <mat-tab label="Tundish">
+    </mat-tab>
+    <mat-tab label="Abnormality">
+    </mat-tab>
+    <mat-tab label="Consumables">
+    </mat-tab>
+    <mat-tab label="Sub Abnormality">
+    </mat-tab>
+    <mat-tab label="Slag Details">
+    </mat-tab>
+    <mat-tab label="Slab Details">
+    </mat-tab>
+  </mat-tab-group>
+</div>
+
+<div class='parent'>
+  <div id="bodyarea">
+    <router-outlet></router-outlet>
+  </div>
+
+  <div class="msgbox">
+    <div class="text">Message</div>
+    <div class="flex-container">
+      <div class="flex-item" id="flex-btn1">Prev</div>
+      <div class="flex-item" id="flex-btn1">Refresh</div>
+      <div class="flex-item" id="flex-btn1">Next</div>
+    </div>
+
+      <div class="Msg-Div">
+        <p>New Message</p>
+        <div class="inputBox">
+            <textarea placeholder="JSWADMIN:"></textarea>
+            <p>Send Date 05-01-2023</p>
+        </div>
+       </div>
+
+       <div class="Msg-Div">
+        <p>Last Message</p>
+        <div class="inputBox">
+            <textarea placeholder="JSWADMIN:"></textarea>
+            <p>Send Date 01-01-2023 </p>
+        </div>
+       </div>
+       <div class="Msg-Div">
+        <p>Last Message</p>
+        <div class="inputBox">
+            <textarea placeholder="JSWADMIN:"></textarea>
+            <p>Send Date 06-01-2023</p>
+        </div>
+       </div>
+  </div>
